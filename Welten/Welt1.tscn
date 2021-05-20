@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://GFX/parallax-forest.png" type="Texture" id=2]
+[ext_resource path="res://Noten/Note1.tscn" type="PackedScene" id=3]
 
 [node name="Welt1" type="Node2D"]
 
@@ -18,3 +19,6 @@ __meta__ = {
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 80.8173, 207.656 )
 scale = Vector2( 0.982664, 0.939128 )
+
+[node name="Note1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 525.312, 249.186 )

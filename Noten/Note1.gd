@@ -11,5 +11,5 @@ func _physics_process(delta):
 
 
 func _on_Drop_body_entered(body):
-	get_tree().call_group("Gamestate", "add_drop")
+	get_tree().call_group("Logik", "add_drop")
 	queue_free()
